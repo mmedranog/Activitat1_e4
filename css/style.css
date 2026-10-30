@@ -1,0 +1,168 @@
+/* styles.css */
+
+/* Reset de marges i padding */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    background-color: #000000;
+}
+
+/* Estils pel header */
+.header {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* Estils per a la navbar */
+nav {
+    background-color: #eb8303;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+
+}
+nav ul li a:hover {
+    color: #ff00ae;
+}
+
+/* Estils per al contenidor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estils per a les files i columnes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    min-width: 100%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #353333;
+    border-radius: 8px;
+}
+
+/* Estils per a títols i paràgrafs */
+h1, h2 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffe5bc;
+}
+
+.menu-botones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+/*Botones */
+.botones {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 0, 100, 0.3);
+    border: 1px solid #ff0066;
+    border-radius: 10px;
+}
+
+.botones:hover {
+    background-color: rgba(255, 0, 100, 0.8);
+    color:rgb(255, 136, 0);
+}
+
+/*Desplegable */
+.acordion-header {
+    background-color:#ff0066;
+    color: rgb(255, 136, 0);
+}
+
+/* Color del contenido desplegado */
+.accordion-body {
+    background-color: #2b0013;
+    color: rgb(255, 136, 0);
+}
+
+/* Color de las líneas del desplegable */
+.accordion-item {
+    border-color: #ff0066;
+}
+
+/* Color cuando pasas el ratón por encima */
+.accordion-header:hover {
+    background-color: #cc0052;
+} ;
+
+/* Acordeon links*/
+
+.accordion-body a:hover {
+    color: #ff6699;
+}
+
+/*Concerts */
+#Concerts {
+color:#777777;
+}
+   #Concerts h1;
+
+/*Activitats */
+#ACTIVITATS {
+    color:#777777;
+}
+
+#ACTIVITATS h3 {
+    color: #ffffff;
+}
+
+#ACTIVITATS h5 {
+    color: #ffe5bc;
+}
+
+#ACTIVITATS p {
+    color: #ffe5bc;
+}
+ h4 {
+    color: #ffffff;
+ }
+form label {
+    color: #ffe5bc;
+}
